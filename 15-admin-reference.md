@@ -21,6 +21,7 @@ The mod never registers a NeoForge config, so nothing appears in the `config` fo
 | `blackMarketResetMinutes` | integer, default 30 | Length of each Black Market auction. |
 | `entranceExamWaitMinutes` | integer, default 30 | Minutes between entrance exams. |
 | `starFestivalMinutes` | integer, default 600 | Length of a Star Awards Festival period. |
+| `magicBlockDestruction` | boolean, default true | Whether spells break terrain (Dimension Slash, Tornado Fang, Purgatory, Light Shaft, Singularity and the rest). Set it to false to stop craters. |
 
 Set them with the vanilla command, for example `/gamerule uniqueMagic false`. They are stored per world.
 
