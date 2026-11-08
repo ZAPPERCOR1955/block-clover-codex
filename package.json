@@ -1,15 +1,10 @@
 {
-  "name": "blockcloverwiki",
-  "version": "1.0.0",
-  "description": "",
-  "main": "build.js",
+  "name": "noea-pack-wiki",
+  "private": true,
+  "description": "Unofficial wiki and training weight calculator for Dragon Mine Z 2.2.1 + Dragon Block Noea 1.2.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "marked": "^12.0.2"
+    "build": "node build-wiki.mjs",
+    "preview": "node serve-preview.mjs"
   }
 }
